@@ -1,0 +1,21 @@
+{
+  "@context": "'https://w3id.org/did/v1",
+  "id": "did:eth:0x275fd328c3986be83f8b60f79c73cf63fde98ca5",
+  "publicKey": [{
+    "id": "did:eth:0x275fd328c3986be83f8b60f79c73cf63fde98ca5#keys-1",
+    "type": "Secp256k1VerificationKey2018",
+    "owner": "did:eth:0x275fd328c3986be83f8b60f79c73cf63fde98ca5",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
+  }],
+  "authentication": [{
+    // this key can be used to authenticate as DID ...
+    "type": "Secp256k1VerificationKey2018",
+    "publicKey": "did:eth:0x275fd328c3986be83f8b60f79c73cf63fde98ca5#keys-1"
+  }],
+  "service": [{
+    "type": "CryptoSocial",
+    "serviceEndpoint": "https://cryptosocial.world"
+  }]
+}
+
+
